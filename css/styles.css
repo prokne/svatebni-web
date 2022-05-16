@@ -1,0 +1,12 @@
+.nav-link {
+  font-family: "Mali", cursive;
+  font-size: 30px;
+  color: #c09951;
+}
+.nav-link:hover {
+  color: #ffdd9e;
+}
+
+.navbar-expand-sm .navbar-colapse {
+  justify-content: space-between;
+}
