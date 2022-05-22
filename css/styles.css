@@ -1,5 +1,7 @@
 body {
   background-color: #f8fff4;
+  /* font-family: "Roboto", sans-serif; */
+  font-family: "Montserrat", sans-serif;
 }
 
 h2 {
@@ -46,7 +48,7 @@ hr {
     ),
     url("../images/main_foto.jpg");
   width: 100%;
-  height: 100vh;
+  height: 110vh;
   background-size: cover;
   background-position: 50% -6%;
 }
@@ -61,16 +63,65 @@ hr {
 
 .wedding-date {
   text-align: center;
-  font-family: "Roboto", sans-serif;
+  /* font-family: "Roboto", sans-serif; */
+  font-family: "Montserrat", sans-serif;
   color: #c09951;
-  font-size: 50px;
+  font-size: 45px;
+  font-weight: 100;
+  padding: 0px;
 }
 
 .about-section {
   width: 100%;
-  height: 600px;
   z-index: 2;
   position: relative;
   top: -30px;
   background-color: #c09951;
+  text-align: justify;
+}
+
+.t-img {
+  width: 140%;
+  border-radius: 50%;
+  position: relative;
+  left: -30%;
+}
+
+.about-text-right {
+  margin: auto 40px;
+  padding-bottom: 30px;
+}
+
+.p-img {
+  width: 140%;
+  border-radius: 50%;
+  position: relative;
+}
+.about-text-left {
+  margin: auto 0 30px auto;
+}
+
+.images {
+  margin: auto;
+  text-align: center;
+}
+
+.img-left {
+  width: 120%;
+  position: relative;
+  left: -20%;
+  border-radius: 5%;
+}
+
+.img-middle {
+  width: 90%;
+  position: relative;
+  top: 70px;
+  margin: auto;
+  border-radius: 5%;
+}
+
+.img-right {
+  width: 120%;
+  border-radius: 5%;
 }
