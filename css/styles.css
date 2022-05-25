@@ -3,14 +3,27 @@ body {
   /* font-family: "Roboto", sans-serif; */
   font-family: "Montserrat", sans-serif;
 }
+i {
+  font-size: 50px;
+}
 
 h2 {
   text-align: center;
-  font-size: 50px;
+  font-size: 40px;
   font-weight: 700;
   font-family: "Mali", cursive;
   padding: 20px;
 }
+
+h3 {
+  padding: 10px;
+}
+
+p {
+  font-size: 18px;
+}
+
+/* NAVIGATION */
 
 .navbar {
   background-color: #323131;
@@ -18,7 +31,7 @@ h2 {
 
 .nav-link {
   font-family: "Mali", cursive;
-  font-size: 30px;
+  font-size: 25px;
   color: #c09951;
 }
 .nav-link:hover {
@@ -38,6 +51,8 @@ hr {
   border-width: 2px;
   border-color: #c09951;
 }
+
+/* MAIN PICTURE */
 
 .main-section {
   background-image: linear-gradient(
@@ -70,6 +85,8 @@ hr {
   font-weight: 100;
   padding: 0px;
 }
+
+/* ABOUT SECTION */
 
 .about-section {
   width: 100%;
@@ -124,4 +141,72 @@ hr {
 .img-right {
   width: 120%;
   border-radius: 5%;
+}
+
+/* WEDDING DAY SECTION */
+
+.wedding-day-section {
+  margin-top: 70px;
+  width: 100%;
+  position: relative;
+  background-color: #4b7f52c3;
+  text-align: center;
+  padding: 30px;
+}
+
+.mapa {
+  text-align: center;
+  margin: 50px auto;
+  padding: 20px 0;
+}
+
+#gmap_canvas {
+  width: 95%;
+  height: 600px;
+}
+
+/* HARMONOGRAM SECTION */
+
+.harmonogram-section {
+  background-color: #c09951;
+  padding: 30px;
+  margin-top: 70px;
+  text-align: center;
+}
+
+.harmonogram {
+  margin: auto;
+  width: 40%;
+  text-align: left;
+  border: 2px solid #323131;
+  padding: 20px;
+}
+
+.program-icon {
+  font-size: 50px;
+}
+.program-hour {
+  display: inline;
+  font-size: 30px;
+}
+
+/* GIFTS SECTION */
+.gifts-section {
+  margin-top: 70px;
+  background-color: #4b7f52c3;
+  text-align: center;
+  padding: 20px;
+}
+
+.gifts {
+  width: 60%;
+  text-align: center;
+  margin: auto;
+  padding: 30px;
+}
+
+.gifts-img {
+  width: 200px;
+  border-radius: 50%;
+  position: relative;
 }
