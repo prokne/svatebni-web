@@ -9,9 +9,10 @@ i {
 
 h2 {
   text-align: center;
-  font-size: 40px;
+  font-size: 37px;
   font-weight: 700;
-  font-family: "Mali", cursive;
+  /* font-family: "Mali", cursive; */
+  font-family: "Montserrat", sans-serif;
   padding: 20px;
 }
 
@@ -209,4 +210,58 @@ hr {
   width: 200px;
   border-radius: 50%;
   position: relative;
+}
+
+/* CONTACTS SECTION */
+.contacts-section {
+  background-color: #c09951;
+  text-align: center;
+  margin-top: 70px;
+  padding: 20px;
+}
+
+.contacts {
+  width: 80%;
+  margin: auto;
+}
+.contacts p,
+h4 {
+  margin: 0;
+}
+
+.mobile-number {
+  margin-top: 5px;
+  display: block;
+}
+
+.mobile-number i {
+  font-size: 18px;
+  color: #323131;
+}
+
+/* CONFIRMATION FORM */
+
+.confirmation-section {
+  background-color: #4b7f52c3;
+  margin-top: 70px;
+  padding: 20px;
+}
+
+.form {
+  width: 60%;
+  margin: 20px auto;
+}
+
+.form label {
+  font-weight: 700;
+}
+
+.form-group {
+  margin-bottom: 20px;
+}
+
+.button {
+  width: 150px;
+  margin: auto;
+  display: block;
 }
