@@ -51,7 +51,7 @@
     ></script>
   </head>
   <body>
-    <nav class="navbar navbar-expand-sm">
+    <nav class="navbar navbar-dark navbar-expand-sm">
       <div class="container-fluid">
         <button
           class="navbar-toggler"
@@ -67,40 +67,46 @@
         <div class="collapse navbar-collapse mt-3" id="navbarNav">
           <ul class="navbar-nav mx-auto">
             <li class="nav-item">
-              <a class="nav-link px-3" href="#">O NÁS</a>
+              <a class="nav-link px-3" href="/#about-section">O NÁS</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link px-3">SVATEBNÍ DEN</a>
+              <a class="nav-link px-3" href="/#wedding-day-section"
+                >SVATEBNÍ DEN</a
+              >
             </li>
             <li class="nav-item">
-              <a class="nav-link px-3">HARMONOGRAM</a>
+              <a class="nav-link px-3" href="/#harmonogram-section"
+                >HARMONOGRAM</a
+              >
             </li>
             <li class="nav-item">
-              <a class="nav-link px-3">DARY</a>
+              <a class="nav-link px-3" href="/#gifts-section">DARY</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link px-3">POTVRZENÍ ÚČASTI</a>
+              <a class="nav-link px-3" href="/#confirmation-section"
+                >POTVRZENÍ ÚČASTI</a
+              >
             </li>
             <li class="nav-item">
-              <a class="nav-link px-3">KONTAKTY</a>
+              <a class="nav-link px-3" href="/#contacts-section">KONTAKTY</a>
             </li>
           </ul>
         </div>
       </div>
     </nav>
-    <div class="main-section">
+    <section id="main-section">
       <hr />
       <h1 class="main-heading">Tereza & Prokop</h1>
       <h2 class="wedding-date">30. 7. 2022</h2>
-    </div>
+    </section>
     <div class="container">
-      <div class="about-section">
+      <section id="about-section">
         <h2>O NÁS</h2>
         <div class="row">
           <div class="col-sm-2">
             <img class="t-img" src="./images/t.jpg" alt="" />
           </div>
-          <div class="col-sm-9 about-text-right">
+          <div class="col-sm-10 about-text-right">
             <p>
               Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
               Phasellus rhoncus. Mauris metus. Vivamus luctus egestas leo.
@@ -130,6 +136,9 @@
           </div>
         </div>
         <div class="row">
+          <div class="col-sm-2 p-img-mobile">
+            <img class="p-img" src="./images/p.jpg" alt="" />
+          </div>
           <div class="col-sm-9 about-text-left">
             <p>
               Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
@@ -158,24 +167,24 @@
               velit esse cillum dolore eu fugiat nulla pariatur.
             </p>
           </div>
-          <div class="col-sm-2">
+          <div class="col-sm-2 p-img-desktop">
             <img class="p-img" src="./images/p.jpg" alt="" />
           </div>
         </div>
         <div class="row">
           <div class="col-sm-4 images">
-            <img class="img-left" src="./images/img2.jpg" alt="" />
+            <img class="img-left img-mobile" src="./images/img2.jpg" alt="" />
           </div>
           <div class="col-sm-4 images">
-            <img class="img-middle" src="./images/img1.jpg" alt="" />
+            <img class="img-middle img-mobile" src="./images/img1.jpg" alt="" />
           </div>
           <div class="col-sm-4 images">
-            <img class="img-right" src="./images/img3.jpg" alt="" />
+            <img class="img-right img-mobile" src="./images/img3.jpg" alt="" />
           </div>
         </div>
-      </div>
+      </section>
 
-      <div class="wedding-day-section">
+      <section id="wedding-day-section">
         <h2>DŮLEŽITÉ INFORMACE</h2>
         <div class="container">
           <div class="row">
@@ -238,7 +247,7 @@
           <div class="gmap_canvas">
             <iframe
               id="gmap_canvas"
-              src="https://maps.google.com/maps?q=Hora%20Matky%20Bo%C5%BE%C3%AD%20Hede%C4%8D&t=&z=13&ie=UTF8&iwloc=&output=embed"
+              src="https://maps.google.com/maps?q=Hora%20Matky%20Bo%C5%BE%C3%AD%20Hede%C4%8D&t=&z=10&ie=UTF8&iwloc=&output=embed"
               frameborder="0"
               scrolling="no"
             ></iframe
@@ -255,9 +264,9 @@
             </style>
           </div>
         </div>
-      </div>
+      </section>
 
-      <div class="harmonogram-section">
+      <section id="harmonogram-section">
         <h2>HARMONOGRAM</h2>
         <div class="harmonogram">
           <div class="row">
@@ -266,7 +275,7 @@
             </div>
             <div class="col-sm-10">
               <div class="program-hour">12:00</div>
-              <p>
+              <p class="program-description">
                 Svatební obřad v klášterním kostele Nanebevzetí Panny Marie na
                 hoře Matky Boží v Kralíkách
               </p>
@@ -278,7 +287,7 @@
             </div>
             <div class="col-sm-10">
               <div class="program-hour">13:00</div>
-              <p>Společné focení před kostelem</p>
+              <p class="program-description">Společné focení před kostelem</p>
             </div>
           </div>
           <div class="row">
@@ -287,7 +296,7 @@
             </div>
             <div class="col-sm-10">
               <div class="program-hour">14:00</div>
-              <p>Slavnostní oběd v Poutním domě</p>
+              <p class="program-description">Slavnostní oběd v Poutním domě</p>
             </div>
           </div>
           <div class="row">
@@ -296,7 +305,7 @@
             </div>
             <div class="col-sm-10">
               <div class="program-hour">16:30</div>
-              <p>Krájení dortu</p>
+              <p class="program-description">Krájení dortu</p>
             </div>
           </div>
           <div class="row">
@@ -305,7 +314,7 @@
             </div>
             <div class="col-sm-10">
               <div class="program-hour">18:00</div>
-              <p>Raut</p>
+              <p class="program-description">Raut</p>
             </div>
             <div class="row">
               <div class="col-sm-2 program-icon">
@@ -313,7 +322,7 @@
               </div>
               <div class="col-sm-10">
                 <div class="program-hour">19:00</div>
-                <p>První tanec</p>
+                <p class="program-description">První tanec</p>
               </div>
             </div>
             <div class="row">
@@ -322,14 +331,16 @@
               </div>
               <div class="col-sm-10">
                 <div class="program-hour">19:30</div>
-                <p>Zábava, jídlo, pití, tanec, svatební hry</p>
+                <p class="program-description">
+                  Zábava, jídlo, pití, tanec, svatební hry
+                </p>
               </div>
             </div>
           </div>
         </div>
-      </div>
+      </section>
 
-      <div class="gifts-section">
+      <section id="gifts-section">
         <h2>DARY</h2>
         <p class="gifts">
           Největším darem pro nás bude, když tento den strávíte s námi a užijete
@@ -337,9 +348,9 @@
           žádnými věcnými dary. Budeme rádi za jakýkoliv finanční příspěvek, za
           který si pořídíme .
         </p>
-      </div>
+      </section>
 
-      <div class="contacts-section">
+      <section id="contacts-section">
         <h2>DŮLEŽITÉ KONTAKTY</h2>
         <p>
           Máte ohledně svatby nějaké otázky, nebo potřebuje pomoct či poradit?
@@ -360,54 +371,52 @@
             </div>
           </div>
         </div>
-      </div>
+      </section>
 
-      <div class="confirmation-section">
+      <section id="confirmation-section">
         <h2>POTVRZENÍ ÚČASTI</h2>
         <p>
           Kvůli lepší organizaci celého dne prosíme o potvrzení účasti
           prostřednictvím níže uvedené formuláře
-          <b>nejpozději do 15.6.2022</b> Děkujeme!
+          <b>nejpozději do 15.6.2022.</b> Děkujeme!
         </p>
 
-        <form action="" class="form">
-          <div class="form-row">
-            <div class="form-group">
-              <div class="col">
-                <label for="name1">Vaše jméno a příjmení:</label>
-                <input
-                  type="text"
-                  class="form-control"
-                  id="name1"
-                  placeholder="Vaše jméno a příjmení"
-                />
-              </div>
-            </div>
-            <div class="form-group">
-              <div class="col">
-                <label for="name2">Jméno a příjmení doprovodu:</label>
-                <input
-                  type="text"
-                  class="form-control"
-                  id="name2"
-                  placeholder="Jméno a příjmení doprovodu"
-                />
-                <small class="form-text text-muted"
-                  >Vyplňte v případě, že příjdete s doprovedem</small
-                >
-              </div>
-            </div>
+        <form action="/confirmation" method="POST" class="form">
+          <div class="form-group">
+            <label for="name1">Vaše jméno a příjmení:</label>
+            <input
+              type="text"
+              class="form-control"
+              id="name1"
+              name="name1"
+              placeholder="Vaše jméno a příjmení"
+              required
+            />
           </div>
           <div class="form-group">
-            <label for="numChildren">Počet dětí</label>
-            <select class="form-control" id="">
-              <option>0</option>
-              <option>1</option>
-              <option>2</option>
-              <option>3</option>
-              <option>4</option>
-              <option>5</option>
-              <option>6</option>
+            <label for="name2">Jméno a příjmení doprovodu:</label>
+            <input
+              type="text"
+              class="form-control"
+              id="name2"
+              name="name2"
+              placeholder="Jméno a příjmení doprovodu"
+            />
+            <small class="form-text text-muted"
+              >Vyplňte v případě, že příjdete s doprovedem</small
+            >
+          </div>
+
+          <div class="form-group">
+            <label for="numChildren">Počet dětí:</label>
+            <select class="form-control" name="numChildren">
+              <option value="0">0</option>
+              <option value="1">1</option>
+              <option value="2">2</option>
+              <option value="3">3</option>
+              <option value="4">4</option>
+              <option value="5">5</option>
+              <option value="6">6</option>
             </select>
           </div>
           <div class="form-group">
@@ -418,7 +427,7 @@
                 type="radio"
                 name="overNight"
                 id="overNightYes"
-                value="yes"
+                value="ano"
                 checked
               />
               <label class="form-check-label" for="overNightYes"> Ano </label>
@@ -429,19 +438,24 @@
                 type="radio"
                 name="overNight"
                 id="overNightNo"
-                value="no"
+                value="ne"
               />
               <label class="form-check-label" for="overNightNo"> Ne </label>
             </div>
           </div>
-          <div class="form-group">
-            <label>Vyberte druh ubytování</label>
-            <select class="form-control" id="">
-              <option>Žádné</option>
-              <option>Chtěl/a bych si objednat pokoj (dvoulůžkový)</option>
-              <option>Chtěl/a bych si objednat pokoj (třílůžkový)</option>
-              <option>Chtěl/a bych si objednat pokoj (čtyřlůžkový)</option>
-              <option>Vyspím se ve spacáku</option>
+          <div class="form-group accomodation-type">
+            <label>Vyberte druh ubytování:</label>
+            <select class="form-control" id="" name="accomodation-type">
+              <option value="spacak">Vyspím se ve spacáku</option>
+              <option value="dvojluzko">
+                Chtěl/a bych si objednat pokoj (dvoulůžkový)
+              </option>
+              <option value="trojluzko">
+                Chtěl/a bych si objednat pokoj (třílůžkový)
+              </option>
+              <option value="ctyrluzko">
+                Chtěl/a bych si objednat pokoj (čtyřlůžkový)
+              </option>
             </select>
           </div>
           <div class="form-group">
@@ -452,7 +466,7 @@
                 type="radio"
                 name="driver"
                 id="driverYes"
-                value="yes"
+                value="ano"
               />
               <label class="form-check-label" for="overNightYes"> Ano </label>
             </div>
@@ -462,7 +476,7 @@
                 type="radio"
                 name="driver"
                 id="driverNo"
-                value="no"
+                value="ne"
                 checked
               />
               <label class="form-check-label" for="overNightNo"> Ne </label>
@@ -471,18 +485,21 @@
           <div class="form-group">
             <label
               >Sem můžete uvést to, na co jsme ve formuláři zapomněli, nebo
-              jakékoliv jiné dotazy či poznámky pro nás</label
+              jakékoliv jiné dotazy či poznámky pro nás:</label
             >
             <textarea
               class="form-control"
               id="additionalInfo"
               rows="3"
+              name="additionalInfo"
             ></textarea>
           </div>
           <button type="submit" class="btn btn-primary button">Odeslat</button>
         </form>
-      </div>
+      </section>
     </div>
+
+    <footer>© 2022 Prokop Netušil</footer>
 
     <!-- Bootstrap -->
     <script
@@ -490,5 +507,6 @@
       integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
       crossorigin="anonymous"
     ></script>
+    <script src="./scripts/scripts.js"></script>
   </body>
 </html>
