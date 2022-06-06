@@ -86,7 +86,7 @@ hr {
   font-size: 120px;
   position: relative;
   opacity: 0;
-  animation: appear 1.2s ease-in 1s forwards;
+  animation: appear 1.2s ease-in 0.7s forwards;
 }
 
 .wedding-date {
@@ -99,7 +99,7 @@ hr {
   padding: 0px;
   position: relative;
   opacity: 0;
-  animation: appear 1.2s ease-in 2s forwards;
+  animation: appear 1.2s ease-in 1.5s forwards;
 }
 
 @keyframes appear {
