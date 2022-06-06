@@ -23,6 +23,7 @@ const con = mysql.createPool({
 app.post("/confirmation", (req, res) => {
   const name1 = req.body.name1;
   const name2 = req.body.name2;
+  const email = req.body.email;
   const numChildren = req.body.numChildren;
   const overNight = req.body.overNight;
   const accomondationType =
@@ -31,11 +32,12 @@ app.post("/confirmation", (req, res) => {
   const additionalInfo = req.body.additionalInfo;
 
   con.query(
-    "INSERT INTO hoste (jmeno, doprovod, pocet_deti, prespani, druh_prespani, ridic, dalsi_info) VALUES (?)",
+    "INSERT INTO hoste (jmeno, doprovod, email, pocet_deti, prespani, druh_prespani, ridic, dalsi_info) VALUES (?)",
     [
       [
         name1,
         name2,
+        email,
         numChildren,
         overNight,
         accomondationType,
