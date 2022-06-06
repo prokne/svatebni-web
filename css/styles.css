@@ -342,7 +342,7 @@ h4 {
 /* GALLERY */
 #gallery-section {
   background-color: #f8fff4;
-  margin: 70px 50px 0;
+  margin: 70px 4% 0;
 }
 
 #gallery-section .col {
@@ -603,6 +603,10 @@ footer {
 
   .contacts .row :nth-child(2) {
     margin-top: 20px;
+  }
+
+  #gallery-section {
+    margin: 30px 3%;
   }
 
   #confirmation-section {
