@@ -49,6 +49,7 @@ app.post("/confirmation", (req, res) => {
       if (err) {
         console.log(err);
       } else {
+        console.log(result);
         res.redirect("/success");
       }
     }
